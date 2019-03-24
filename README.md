@@ -73,25 +73,47 @@ Some JavaScript code
 
 * **What does a code comment look like in JavaScript? What character/s do you have to put before a comment?**
 
+"//" should be included before the line of comment code.
+
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
+
+---UNANSWERED---
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
+The 'displayInformation' function and 'alert' function seem to be similar to the 'print' function in Python because both are used to show the user some information. Alert is preferred to use in pop-ups to immediately get the user's attention.
+
 * **What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! *HINT:* Look through the rest of the code first...**
+
+The 'alert' line would have to be commented out.
+
+
+
 
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 
+Replace the contents of the respective line in the displayInformation function.
+
 * **What does the word `document` represent in this code? Explain briefly.**
+
+---UNANSWERED---
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
 )? Explain, briefly (<= 2 sentences).**
 
+Every element with the 'li' tag is being counted in order to output the length.
+
 * **What color would the background of this page be <u>if there were no JavaScript in this page</u>?**
+
+White
 
 * **Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.**
 
+The colors of these boxes, the 'p' tag, were set through the CSS code in <style>. This can edited by changing the 'background-color' hex code in the 'p' tag.
+
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
+
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
