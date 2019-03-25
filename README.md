@@ -77,7 +77,7 @@ Some JavaScript code
 
 * **Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.**
 
----UNANSWERED---
+In order to 'run' a JavaScript program it must be implemented within an html file so that running the html file runs the JavaScript code.
 
 * **What functions in JavaScript seem to be similar in function to the `print` function in Python? (There are two.) Why might you use one and not the other? Explain briefly.**
 
@@ -141,11 +141,19 @@ The second part of the code creates a button with the "handleClick" function (de
 
 * **When you enter input that isn't valid, you see an error that is red. Why is the error in red? Why is the response for valid inputs blue?**
 
+The error is red and the valid input is blue because that is what was defined for each state in the CSS code.
+
 * **What is this line `var regex = /^[a-zA-Z]+$/;` helping with? And if you googled something to figure that out, what did you google, and what, briefly, did you learn? (If you didn't need to google, you can leave that out, but explain briefly what that line is helping the program do, anyway.)**
+
+I googled "regex a-zA-Z" and learned that this helps define the type of input we consider valid.
 
 * **What's different about the syntax of conditional statements in JavaScript, compared to Python?**
 
+There is no return statement in JavaScript whereas in Python, a return statement is required for conditional statements.
+
 * **What do you think the `10000` refers to in the code `.fadeOut(10000)`?**
+
+I think it's the speed at which the text will fade out.
 
 * **What do you think is going on with the following code at the beginning of the program? Note that the most important thing to do for answering this question is to be thoughtful and clear, not to be absolutely correct:**
 
