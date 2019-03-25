@@ -9,7 +9,7 @@
 	// It is possible you have seen this before -- if so, that's fine, if not, that's fine, too
 
 	// Output..
-	alert("#time");
+	alert(new Date());
 	console.log("hello in console");
 
 	function displayInformation () {
@@ -25,11 +25,15 @@
 	//When someone uses the keyboard shortcut to copy the words "University of Michigan" then add the words "Go Blue" to the final div.  Each occurence should be on a separate line.
 	//Note that this code must be outside the other function above
 	function copyFunction(){
-		document.querySelector('#cheer').innerHTML += "Go blue!<br>"
+		document.querySelector('#cheer').innerHTML += "0 Canada<br>"
+	}
+
+	function handleClick1(){
+		alert("hello");
 	}
 
 	function handleClick(){
-		alert("hello");
+		alert("March 20, 2019");
 	}
 </script>
 <style>
@@ -67,15 +71,16 @@ p{
 	<ul>
 		<li>Kent State</li>
 		<li>University of Pittsburgh</li>
-		<li>McGill University</li>
+		<li oncopy="copyFunction()">McGill University</li>
 		<li>California State University Long Beach</li>
-		<li oncopy="copyFunction()">University of Michigan</li>
+		<li>University of Michigan</li>
 	</ul>
 	<div id="cheer">
 
 	</div>
 
-	<button onclick=handleClick() id="wow-button">Wow</button>
+	<button onclick=handleClick1() id="wow-button">Wow</button>
+	<button onclick=handleClick() id="equinox-button">Spring Equinox 2019</button>
 
 </body>
 </html>
