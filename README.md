@@ -87,16 +87,13 @@ The 'displayInformation' function and 'alert' function seem to be similar to the
 
 The 'alert' line would have to be commented out.
 
-
-
-
 * **How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace `A name` in the web page with your own name.**
 
 Replace the contents of the respective line in the displayInformation function.
 
 * **What does the word `document` represent in this code? Explain briefly.**
 
----UNANSWERED---
+Document represents the DOM in which all the tags exist.
 
 * **What is happening in line 12 (
 		`document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length`
@@ -114,8 +111,10 @@ The colors of these boxes, the 'p' tag, were set through the CSS code in <style>
 
 * **Edit the code so that, if you highlight `McGill University` and copy it, you see the text `O Canada` near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?**
 
+I changed the output string in the copyFunction from "Go Blue!" to "0 Canada". I also added an oncopy="copyFunction()" to McGill University so it calls copyFunction when the line is copied. I knew to do this because a similar thing was done on the University of Michigan line.
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
+
 
 ```js
 function handleClick(){
@@ -128,7 +127,9 @@ function handleClick(){
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
 
+The first part of the code creates a function to do something when something is clicked, hence "handleClick". That something that happens in this case is a pop-up that says "hello".
 
+The second part of the code creates a button with the "handleClick" function (defined above) integrated so that when the button is clicked, something happens aka a pop-up appears saying "hello"
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
 
